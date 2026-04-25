@@ -1,0 +1,23 @@
+programa {
+  funcao inicio() {
+    real valor1
+    real valor2
+    real soma
+    real subtracao
+    real multiplicacao
+    real divisao
+    escreva("Digite o primeiro valor: ")
+    leia(valor1)
+    escreva("Digite o segundo valor: ")
+    leia(valor2)
+    soma = valor1 + valor2 
+    subtracao = valor1 - valor2
+    multiplicacao = valor1 * valor2
+    divisao = valor1 / valor2
+    escreva("\nO resultado da soma é: ",soma)
+    escreva("\nO resultado da subtração é: ",subtracao)
+    escreva("\nO resultado da multiplicação é: ",multiplicacao)
+    escreva("\nO resultado da divisão é: ",divisao)
+    
+  }
+}
